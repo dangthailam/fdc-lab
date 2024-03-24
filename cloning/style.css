@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+.navbar-menu {
+    flex: 1;
+    background-color: #8B5CF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    flex: 10;
+}
+
+img.site-icon {
+    width: 40px;
+}
+
+.navbar-menu span {
+    display: none;
+}
